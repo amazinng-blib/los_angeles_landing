@@ -82,6 +82,7 @@ li {
   line-height: 1.5;
   @media screen and (max-width: 678px) {
     font-size: 1rem;
+    font-weight: 400;
   }
 }
 .span-text-2 {
@@ -91,6 +92,7 @@ li {
   line-height: 1.5;
   @media screen and (max-width: 678px) {
     font-size: 1rem;
+    font-weight: 400;
   }
 }
 
