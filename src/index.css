@@ -81,7 +81,7 @@ li {
   font-size: 1.2rem;
   line-height: 1.5;
   @media screen and (max-width: 678px) {
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 400;
   }
 }
@@ -91,7 +91,7 @@ li {
   font-size: 1.2rem;
   line-height: 1.5;
   @media screen and (max-width: 678px) {
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 400;
   }
 }
