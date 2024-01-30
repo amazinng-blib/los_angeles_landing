@@ -18,10 +18,7 @@ const History = () => {
           <div>
             {data?.slice(0, 5)?.map((img, index) => {
               return (
-                <div
-                  key={index}
-                  className={`${activeIndex === index && 'border'}`}
-                >
+                <div key={index}>
                   <img src={img?.img} alt="carousel images" />
                 </div>
               );

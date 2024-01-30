@@ -9,7 +9,8 @@ const Nav = ({ logo_text }) => {
           <img src={Logo} alt="Logo" />
           {logo_text && (
             <div className="span-container">
-              <span className="span-text-1">LOSANGELES</span> <br />
+              <span className="span-text-1">LOSANGELES</span>
+              <br />
               <span className="span-text-2">MOUNTAIN</span>
             </div>
           )}
