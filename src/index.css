@@ -83,6 +83,7 @@ li {
   @media screen and (max-width: 678px) {
     font-size: 0.8rem;
     font-weight: 600;
+    color: red;
   }
 }
 .span-text-2 {
