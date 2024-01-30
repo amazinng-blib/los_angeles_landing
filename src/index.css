@@ -1,13 +1,103 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.home-container {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+
+  @media screen and (max-width: 678px) {
+    width: 100%;
+    padding: 1rem;
+  }
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+
+  @media screen and (max-width: 678px) {
+    width: 100%;
+  }
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+  font-weight: bold;
+  padding-bottom: 0.2rem;
+  border-bottom: 2px solid white;
+  border-radius: 2px;
+  color: white;
+  @media screen and (max-width: 678px) {
+    font-size: 0.8rem;
+  }
+}
+
+.nav ul li:hover {
+  border-bottom-color: blue;
+}
+
+.nav > .logo-section img {
+  cursor: pointer;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.li_color {
+  color: #414e69;
+  padding-bottom: 0.2rem;
+  border-bottom: 3px solid #414e69;
+  border-radius: 2px;
+}
+
+.li_color:hover {
+  border-bottom-color: blue;
+}
+
+.span-text-1 {
+  font-weight: 600;
+  color: #4e4e4e;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  @media screen and (max-width: 678px) {
+    font-size: 1rem;
+  }
+}
+.span-text-2 {
+  font-weight: 600;
+  color: #414e69;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  @media screen and (max-width: 678px) {
+    font-size: 1rem;
+  }
+}
+
+.hero-nav {
+  padding: 0.5rem;
+}
+
+.border {
+  border: 1px solid blue;
 }

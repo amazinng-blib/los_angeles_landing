@@ -1,0 +1,59 @@
+.schedule-container {
+  background-color: #414e69;
+}
+
+.bg-img {
+  background-image: url('../../image/last_img.PNG');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-size: cover; /* Cover the entire container */
+  background-position: center;
+}
+
+.nav-btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-btn li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.bg-underline {
+  background-color: #9ca1ac;
+  border-bottom: 1px solid #414e69;
+  padding: 1rem;
+  color: #414e69;
+}
+
+.container .logo-div > img {
+  color: #414e69;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+
+  @media screen and (max-width: 678px) {
+    justify-content: center;
+  }
+}
+
+.logo-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.logo-div > .span-container > .span-text-1,
+.logo-div > .span-container > .span-text-2 {
+  color: #6f8ac2;
+}

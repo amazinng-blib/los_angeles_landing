@@ -1,0 +1,61 @@
+.h-container {
+  background-image: url('../../image/bg_2.PNG');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-size: cover; /* Cover the entire container */
+  background-position: center;
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.carousel-container {
+  position: absolute;
+  bottom: -3rem;
+  left: 0;
+  right: 0;
+  background-color: #414e69;
+  padding: 2rem 0;
+}
+
+.image-container {
+  overflow-x: hidden;
+  width: 60%;
+  margin: auto;
+}
+
+.image-container > div {
+  overflow-x: auto;
+  white-space: nowrap;
+  display: flex;
+  gap: 1.5rem;
+}
+.b-container {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 0.8rem auto;
+}
+
+.btn {
+  display: block;
+  border-radius: 100%;
+  background-color: #7e6d6d;
+  width: 0.7rem;
+  height: 0.7rem;
+  cursor: pointer;
+}
+
+.btn-bg {
+  background-color: #fff;
+}
+
+.mantine-carousel-slide {
+  background-color: red;
+}
+
+.mantine-carousel-dots {
+  color: red;
+}
