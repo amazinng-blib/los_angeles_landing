@@ -79,11 +79,9 @@ li {
   font-weight: 600;
   color: #4e4e4e;
   font-size: 1.2rem;
-  line-height: 1.5;
   @media screen and (max-width: 678px) {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     font-weight: 600;
-    color: red;
   }
 }
 .span-text-2 {
